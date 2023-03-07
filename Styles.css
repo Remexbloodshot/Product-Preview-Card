@@ -1,0 +1,106 @@
+.whitecontent{
+    font-family: 'Montserrat', sans-serif;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 0 20px 20px 0px;
+}
+.baba{
+    font-weight: 400;
+}
+.class{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+header{
+    font-weight: 100;
+}
+.papa{
+    display: flex;
+    margin: 80px auto;
+    width: 600px;
+}
+.perfume{
+    border-radius: 20px 0px 0px 20px;
+    width: 50%;
+}
+body{
+   background-color:  hsl(30, 38%, 92%);
+}
+button{
+    display: block;
+    background-color: hsl(158, 36%, 37%);
+    border-color: hsl(158, 36%, 37%);
+    border-radius:  5px;
+    color: white;
+    width: 90%;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.green{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.uncle{
+    display: flex;
+    align-items: center;
+}
+.og{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 30px;
+    font-weight: 500;
+}
+header{
+    color: hsl(228, 12%, 48%);
+}
+@media screen and (max-width:425px) {
+    .papa{
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+    }
+    .whitecontent{
+        width: 89%;
+        border-radius: 0 0 20px 20px;
+        padding: 15px;
+    }
+    .perfume{
+        visibility: hidden;
+        position: absolute;
+    }
+    .perfume2{
+        width: 100%;
+        height: 50%;
+        border-radius: 20px 20px 0 0;
+    }
+    button{
+        width: 100%;
+    }
+    .class{
+        text-align: left;
+    }
+    .og{
+        line-height: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 12px;
+    }
+    .uncle{
+        margin-top: -15px;
+    }
+}
+@media screen and (min-width:760px){
+    .perfume2{
+        visibility: hidden;
+        position: absolute;
+    }
+    .class{
+        font-size: 40px;
+        line-height: 33px;
+    }
+}
